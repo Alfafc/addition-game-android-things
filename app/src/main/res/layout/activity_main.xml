@@ -14,7 +14,8 @@
         android:text="@string/start_text"
         android:textColor="@color/colorPrimaryDark"
         android:textFontWeight="400"
-        android:textSize="50sp"
+        android:layout_marginBottom="300sp"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -22,10 +23,11 @@
 
     <Button
         android:id="@+id/buttonLeft"
-        android:layout_width="100sp"
-        android:layout_height="50sp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
         android:layout_marginTop="200sp"
-        android:layout_marginRight="200sp"
+        android:layout_marginRight="450sp"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -33,9 +35,10 @@
 
     <Button
         android:id="@+id/buttonMiddle"
-        android:layout_width="100sp"
-        android:layout_height="50sp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
         android:layout_marginTop="200sp"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -43,10 +46,11 @@
 
     <Button
         android:id="@+id/buttonRight"
-        android:layout_width="100sp"
-        android:layout_height="50sp"
-        android:layout_marginLeft="200sp"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginLeft="450sp"
         android:layout_marginTop="200sp"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
