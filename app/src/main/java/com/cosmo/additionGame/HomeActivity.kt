@@ -9,7 +9,7 @@ import java.util.*
 import kotlin.random.Random
 import kotlin.random.asJavaRandom
 
-class MainActivity : Activity() {
+class HomeActivity : Activity() {
 
     private val timer: Timer = Timer()
     private lateinit var currentOperation: Operation
@@ -86,7 +86,7 @@ class MainActivity : Activity() {
         }
 
         Toast.makeText(
-            this@MainActivity,
+            this@HomeActivity,
             resultText,
             Toast.LENGTH_SHORT
         ).show()
@@ -95,7 +95,7 @@ class MainActivity : Activity() {
     private fun showNewOperationTimerTask(): TimerTask {
         return object : TimerTask() {
             override fun run() {
-                this@MainActivity.runOnUiThread {
+                this@HomeActivity.runOnUiThread {
                     showNewOperation()
                 }
             }
